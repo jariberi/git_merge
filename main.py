@@ -1,3 +1,6 @@
+import math
+
+
 def suma(a, b):
     return a + b
 
@@ -16,3 +19,7 @@ def division(a, b):
 
 def potencia(a, b):
     return a ** b
+
+
+def raiz(a):
+    math.sqrt(a)
